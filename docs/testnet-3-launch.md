@@ -2,14 +2,16 @@
 
 Althea Testne 3 will be starting with a decentralized launch. In order to determine the genesis validators everyone needs generate and submit a genesis address. Both gentx and addresses will be submitted via github
 
+## These instructions have updated, people follow them exactly! you can download or build v0.3.1
+
 ```
-wget https://github.com/althea-net/althea-chain/releases/download/v0.3.0/althea-v0.3.0-linux-amd64
-althea init myvalidatorname
-althea keys add --algo secp256k1 --coin-type 118 myvalidatorkey
+wget https://github.com/althea-net/althea-chain/releases/download/v0.3.1/althea-v0.3.1-linux-amd64
+chmod +x althea-v0.3.1-linux-amd64
+mv althea-v0.3.1-linux-amd64 /usr/bin/althea
+wget https://raw.githubusercontent.com/althea-net/althea-chain-docs/main/testnet-3-genesis.json
+althea tendermint unsafe-reset-all
+mv testnet-3-genesis.json ~/.althea/config/genesis.json
+althea gentx yourkeyname 1033000000000000000000ualthea --chain-id althea_7357-1
 ```
 
-Take the `althea1` address produced by this command and add it to the folder `validator-genesis-addresses/` in this repo. You can use Github's ui web-editor to do this without any cli commands.
-
-Just follow [this link](https://github.com/althea-net/althea-chain-docs/tree/main/validator-genesis-addresses), sign into github and select the 'add file' button to create a file with the name as your address containing one line of your address
-
-Key collection ends at 11:00am EST on Feb 9th, after that all validators who have added a key will need to create a gentx. Instructions will be here for that soon.
+The gentx command will print the location of the genesis file it has generated, click [this link](https://github.com/althea-net/althea-chain-docs/tree/main/gentxs) and select 'add file -> upload files' then upload the gentx file.

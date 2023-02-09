@@ -7,5 +7,3 @@
 ## Status
 
 The Althea blockchain is in it's final testnet series for a launch in the first half of 2023!
-
-
