@@ -1,7 +1,6 @@
-# Testnet 3 launch!
+# Testnet 3 launch
 
 Althea Testne 3 will be starting with a decentralized launch. In order to determine the genesis validators everyone needs generate and submit a genesis address. Both gentx and addresses will be submitted via github
-
 
 ```
 wget https://github.com/althea-net/althea-chain/releases/download/v0.3.0/althea-v0.3.0-linux-amd64
