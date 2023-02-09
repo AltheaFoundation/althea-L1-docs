@@ -11,7 +11,7 @@ mv althea-v0.3.1-linux-amd64 /usr/bin/althea
 wget https://raw.githubusercontent.com/althea-net/althea-chain-docs/main/testnet-3-genesis.json
 althea tendermint unsafe-reset-all
 mv testnet-3-genesis.json ~/.althea/config/genesis.json
-althea gentx yourkeyname 1033000000000000000000ualthea --chain-id althea-testnet-3
+althea gentx yourkeyname 1033000000000000000000ualthea --chain-id althea_7357-1
 ```
 
 The gentx command will print the location of the genesis file it has generated, click [this link](https://github.com/althea-net/althea-chain-docs/tree/main/gentxs) and select 'add file -> upload files' then upload the gentx file.
