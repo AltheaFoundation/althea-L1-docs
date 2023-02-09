@@ -1,0 +1,20 @@
+name: Validate Genesis and collect gentxs
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup
+        run: |
+          wget https://github.com/althea-net/althea-chain/releases/download/v0.3.0/althea-v0.3.0-linux-amd64
+          chmod +x althea-v0.1.5-linux-amd64
+          sudo mv althea-v0.1.5-linux-amd64 /bin/althea
+          althea init test
+          mkdir $HOME/.althea/config/gentx
+          cp ./genesis.json $HOME/.althea/config/
+          cp ./gentxs/* $HOME/.althea/config/gentx/
+      - name: Validate Genesis
+        run: althea validate-genesis
+      - name: Collect Gentxs
+        run: althea collect-gentxs
