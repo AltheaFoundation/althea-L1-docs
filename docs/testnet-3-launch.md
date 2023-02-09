@@ -9,6 +9,8 @@ wget https://github.com/althea-net/althea-chain/releases/download/v0.3.1/althea-
 chmod +x althea-v0.3.1-linux-amd64
 mv althea-v0.3.1-linux-amd64 /usr/bin/althea
 wget https://raw.githubusercontent.com/althea-net/althea-chain-docs/main/testnet-3-genesis.json
+althea unsafe-reset-all
+mv testnet-3-genesis.json ~/.althea/config/genesis.json
 althea gentx yourkeyname 1033000000000000000000ualthea --chain-id althea-testnet-3
 ```
 
