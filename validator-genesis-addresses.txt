@@ -1,2 +1,6 @@
 # Add your validator address to this file
 althea1x2lh2vq6fflwwut50hxk0ukvtvlraupnz249dv
+althea173y2x6g68w76e4xrat89dsyg7lrhlf6myhf3y7
+althea1g8fcz0n5z9525klnw2pme6q68gadzlh2pgakyj
+althea1r5gmz9p5kpkm8mp4e3ygd5fpw9gnmgd0mfyrq3
+
