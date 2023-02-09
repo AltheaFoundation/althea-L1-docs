@@ -12,4 +12,4 @@ Take the `althea1` address produced by this command and add it to the folder `va
 
 Just follow [this link](https://github.com/althea-net/althea-chain-docs/tree/main/validator-genesis-addresses), sign into github and select the 'add file' button to create a file with the name as your address containing one line of your address
 
-Key collection ends at 10:30am EST on Feb 9th, after that all validators who have added a key will need to create a gentx. Instructions will be here for that soon.
+Key collection ends at 11:00am EST on Feb 9th, after that all validators who have added a key will need to create a gentx. Instructions will be here for that soon.
