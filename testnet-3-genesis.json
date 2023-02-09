@@ -1,6 +1,6 @@
 {
   "genesis_time": "2023-02-08T14:45:17.063263988Z",
-  "chain_id": "althea-testnet-3",
+  "chain_id": "althea_7357-1",
   "initial_height": "1",
   "consensus_params": {
     "block": {
