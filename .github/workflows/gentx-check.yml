@@ -7,7 +7,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setup
         run: |
-          wget https://github.com/althea-net/althea-chain/releases/download/v0.3.0/althea-v0.3.0-linux-amd64
+          wget https://github.com/althea-net/althea-chain/releases/download/v0.3.1/althea-v0.3.1-linux-amd64
           chmod +x althea-v0.1.5-linux-amd64
           sudo mv althea-v0.1.5-linux-amd64 /bin/althea
           althea init test
