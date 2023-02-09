@@ -1,1 +1,2 @@
 # Add your validator address to this file
+althea1kvahh9wae5j7cn8gx8p7qs0fzv8appsaqwntwz
