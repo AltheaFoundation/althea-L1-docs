@@ -68,7 +68,7 @@ althea keys add <walletname>
 althea keys add <walletname> --recover
 ```
 
-## Download Genesis
+## Download Genesis 
 ```python
 wget -O $HOME/.althea/config/genesis.json "https://raw.githubusercontent.com/obajay/nodes-Guides/main/Althea/genesis.json"
 
