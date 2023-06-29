@@ -3,7 +3,7 @@
 ## Index
 
 1. [Joining testnet3](/docs/testnet-3-launch.md)
-2. [Building on Althea L1](/development/index.md)
+2. [Building on Althea L1](/docs/development/index.md)
 3. [Hackathon project index](/docs/hackathon-projects/index.md)
 
 ## RPC
