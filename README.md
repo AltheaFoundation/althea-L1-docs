@@ -1,8 +1,10 @@
-# ![Althea](./assets/Althea_Logo-BLUE_SIGNAL.svg)
+# ![Althea](./assets/AltheaL1-logo.svg)
 
 ## Index
 
 1. [Joining testnet3](/docs/testnet-3-launch.md)
+2. [Building on Althea L1](/development/index.md)
+3. [Hackathon project index](/docs/hackathon-projects/index.md)
 
 ## RPC
 
@@ -16,4 +18,6 @@ Public RPC is avaialble at `https://althea.zone`
 
 ## Status
 
-The Althea blockchain is in it's final testnet series for a launch in the first half of 2023!
+Althea L1 is the payment layer for autonomous machines and self-soverign infrastructure networks. Designed for pratical micropayments applications, you can learn more [here](https://althea.net)
+
+Currently testnet 3 is ongoing, to be replaced by testnet 4 for the upcoming Althea L1 hackathon 
