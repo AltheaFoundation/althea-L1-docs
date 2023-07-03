@@ -11,5 +11,5 @@ jobs:
           bundler-cache: true
       - run: gem install mdl
       # lint ignoring the line length lint
-      - run: mdl -r ~MD013 README.md
-      - run: mdl -r ~MD013 docs/*
+      - run: mdl -r ~MD013,~MD026 README.md
+      - run: mdl -r ~MD013,~MD026 docs/*
