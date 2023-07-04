@@ -2,7 +2,7 @@
 
 ## Index
 
-1. [Joining testnet4](/docs/testnet-4-launch.md)
+1. [Joining testnet4](/docs/join-testnet-4.md)
 1. [Building on Althea L1](/docs/development/index.md)
 1. [Hackathon project index](https://dorahacks.io/hackathon/145)
 1. [Source code](https://github.com/althea-net/althea-l1)
