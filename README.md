@@ -29,3 +29,5 @@ Testnet 4 ([hackathon](https://dorahacks.io/hackathon/145) testnet) is currently
 ## Block Explorers
 
 * [STAVR](https://explorer.stavr.tech/althea-testnetl1)
+* [Hexnodes](https://explorer.hexnodes.co/ALTHEA-TESTNET/staking/altheavaloper19fcaymvtttl265lner4sz8na70venkfgxkq3hl)
+* [Vinjan](https://explorer.vinjan.xyz/althea-testnet/staking/altheavaloper1dxrrcxyr5vc2mr9q8j9f2l670kkp736dsrkmna)
