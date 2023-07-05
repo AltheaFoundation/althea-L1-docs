@@ -31,13 +31,13 @@ with the rest.
 
 ```bash
 wget https://raw.githubusercontent.com/althea-net/althea-L1-docs/main/testnet-4-genesis-collected.json
-cp genesis.json $HOME/.althea/config/genesis.json
+cp testnet-4-genesis-collected.json $HOME/.althea/config/genesis.json
 
 ```
 
 ## Add seed node and persistent peers
 
-Change the `persistent_peers` field in ~/.gravity/config/config.toml to contain the following:
+Change the `persistent_peers` field in ~/.althea/config/config.toml to contain the following:
 
 ```text
 persistent_peers = "72a7e729fbb2be68a39d50d2f9de18079da175c4@chainripper-2.althea.net:23296"
