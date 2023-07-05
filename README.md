@@ -29,4 +29,3 @@ Testnet 4 ([hackathon](https://dorahacks.io/hackathon/145) testnet) is currently
 ## Block Explorers
 
 * [STAVR](https://explorer.stavr.tech/althea-testnetl1)
-* 
