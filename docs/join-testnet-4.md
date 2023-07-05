@@ -180,4 +180,4 @@ althea query staking validator $(althea keys show myvalidatorkeyname --bech val 
 
 ## Congrats!
 
-You have a Althea L1 validator setup and running. Checkout the [hackathon project index](https://dorahacks.io/hackathon/145) for any project you may want to participate in!
+You have an Althea L1 validator setup and running. Checkout the [hackathon project index](https://dorahacks.io/hackathon/145) for any project you may want to participate in!
