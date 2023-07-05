@@ -25,3 +25,8 @@ evm chain id: 417834
 Althea L1 is the payment layer for autonomous machines and self-soverign infrastructure networks. Designed for pratical micropayments applications, you can learn more [here](https://althea.net)
 
 Testnet 4 ([hackathon](https://dorahacks.io/hackathon/145) testnet) is currently live, please see the [joining testnet4](/docs/testnet-4-launch.md) for instructions on running a validator / full node. If you want to develop for the [hackathon](https://dorahacks.io/hackathon/145) please see the [building on Althea L1](/docs/development/index.md) guide and use the public RPC specified above.
+
+## Block Explorers
+
+* [STAVR](https://explorer.stavr.tech/althea-testnetl1)
+* 
