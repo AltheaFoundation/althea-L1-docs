@@ -142,7 +142,7 @@ Value of 'false' means that it is now synced, 'true' means that sync is still in
 
 ## Getting some Althea tokens
 
-Drop by the #ifi-2023 channel in the [Althea discord](https://discord.com/invite/hHx7HxcycF)
+Drop by the #validators channel in the [Althea discord](https://discord.com/invite/hHx7HxcycF)
 
 post your althea1 validator address and recieve tokens to start your validator.
 
