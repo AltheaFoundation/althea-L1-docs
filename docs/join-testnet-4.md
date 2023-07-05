@@ -18,7 +18,7 @@ sudo mv althea-linux-amd64 /usr/sbin/althea
 
 ## Generate priv_validator_key.json
 
-The output of this command will generate priv_validator_key.json, which generates a different output each time it is ran even if the same input is provided. If you lose this file you will not be able to regenerate it and you will have to start a new validator. The default save location for this file will be ~/.gravity/config/priv_validator_key.json
+The output of this command will generate priv_validator_key.json, which generates a different output each time it is ran even if the same input is provided. If you lose this file you will not be able to regenerate it and you will have to start a new validator. The default save location for this file will be ~/.althea/config/priv_validator_key.json
 
 ```bash
 althea init mymoniker --chain-id althea_417834-2
@@ -132,7 +132,7 @@ journalctl -u althea.service -f --output cat
 
 You will need to wait for your Althea node to fully sync before progressing in the instructions </br>
 
-You can issue the following command to check the sync status of the Gravity Node </br>
+You can issue the following command to check the sync status of the Althea Node </br>
 
 ```bash
 althea status 2>&1| jq .SyncInfo.catching_up
@@ -180,4 +180,4 @@ althea query staking validator $(althea keys show myvalidatorkeyname --bech val 
 
 ## Congrats!
 
-You have a gravity bridge validator setup and running. Checkout the [hackathon project index](https://dorahacks.io/hackathon/145) for any project you may want to participate in!
+You have an Althea L1 validator setup and running. Checkout the [hackathon project index](https://dorahacks.io/hackathon/145) for any project you may want to participate in!
