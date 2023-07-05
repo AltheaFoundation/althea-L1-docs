@@ -151,7 +151,7 @@ post your althea1 validator address and recieve tokens to start your validator.
 ```bash
 
 althea tx staking create-validator \
- --amount= 975000000000000000000aalthea\
+ --amount=975000000000000000000aalthea\
  --pubkey=$(althea tendermint show-validator) \
  --moniker="put your validator name here" \
  --chain-id=althea_417834-2 \
