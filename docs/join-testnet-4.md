@@ -132,7 +132,7 @@ journalctl -u althea.service -f --output cat
 
 You will need to wait for your Althea node to fully sync before progressing in the instructions </br>
 
-You can issue the following command to check the sync status of the Gravity Node </br>
+You can issue the following command to check the sync status of the Althea Node </br>
 
 ```bash
 althea status 2>&1| jq .SyncInfo.catching_up
@@ -180,4 +180,4 @@ althea query staking validator $(althea keys show myvalidatorkeyname --bech val 
 
 ## Congrats!
 
-You have a gravity bridge validator setup and running. Checkout the [hackathon project index](https://dorahacks.io/hackathon/145) for any project you may want to participate in!
+You have a Althea L1 validator setup and running. Checkout the [hackathon project index](https://dorahacks.io/hackathon/145) for any project you may want to participate in!
