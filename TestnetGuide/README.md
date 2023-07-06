@@ -5,7 +5,7 @@
 [WebSite](https://www.althea.net/)\
 [GitHub](https://github.com/althea-net)
 =
-[EXPLORER](https://explorer.stavr.tech/althea-testnet/staking)
+[EXPLORER](https://explorer.stavr.tech/althea-testnetl1/staking)
 =
 
 - **Minimum hardware requirements**:
