@@ -13,7 +13,7 @@ If you have a system architecture other than x86_64 Linux you will need to [grab
 ```bash
 wget https://github.com/althea-net/althea-L1/releases/download/v0.5.4/althea-linux-amd64
 chmod +x althea-linux-amd64
-sudo mv althea-linux-amd64 /usr/sbin/althea
+sudo mv althea-linux-amd64 /usr/bin/althea
 ```
 
 ## Generate priv_validator_key.json
