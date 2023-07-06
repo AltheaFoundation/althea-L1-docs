@@ -30,6 +30,6 @@ cp $HOME/.althea/data/priv_validator_state.json $HOME/.althea/priv_validator_sta
 rm -rf $HOME/.althea/data
 curl -o - -L http://althea.snapshot.stavr.tech:1020/althea/althea-snap.tar.lz4 | lz4 -c -d - | tar -x -C $HOME/.althea --strip-components 2
 mv $HOME/.althea/priv_validator_state.json.backup $HOME/.althea/data/priv_validator_state.json
-wget -O $HOME/.althea/config/addrbook.json "https://raw.githubusercontent.com/obajay/nodes-Guides/main/Althea/addrbook.json"
+wget -O $HOME/.althea/config/addrbook.json "https://raw.githubusercontent.com/obajay/nodes-Guides/main/Projects/Althea/addrbook.json"
 sudo systemctl restart althea && journalctl -u althea -f -o cat
 ```
