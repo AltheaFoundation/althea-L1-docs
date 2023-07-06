@@ -1,6 +1,6 @@
 # Building on Althea L1
 
-Althea L1 is a hybrid blockchain built with the goal of enabling machine to machine micropayments. By 'hybrid' we mean that that the chain has two separate execution environments, one fixed format transactional environment and an EVM environment for programmable transactions. By isolating these environments Althea L1 **TODO: FINISH THIS SENTENCE**
+Althea L1 is a hybrid blockchain built with the goal of enabling machine to machine micropayments. By 'hybrid' we mean that that the chain has two separate execution environments, one fixed format transactional environment and an EVM environment for programmable transactions.
 
 The 'hybrid' in this case comes from the divide between the [cosmos-sdk](https://github.com/cosmos/cosmos-sdk) base layer of the chain and the [EVM](https://github.com/althea-net/ethermint) environment provided by the ethermint module.
 
