@@ -29,6 +29,12 @@ Testnet 4 ([hackathon](https://dorahacks.io/hackathon/145) testnet) is currently
 
 ## Block Explorers
 
+### EVM
+
+* [altheascan](https://altheascan.com/)
+
+### Cosmos SDK
+
 * [Nodes.Guru](https://althea.explorers.guru/)
 * [STAVR](https://explorer.stavr.tech/althea-testnetl1)
 * [Hexnodes](https://explorer.hexnodes.co/ALTHEA-TESTNET/staking/altheavaloper19fcaymvtttl265lner4sz8na70venkfgxkq3hl)
