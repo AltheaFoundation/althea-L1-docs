@@ -40,7 +40,7 @@ cp testnet-4-genesis-collected.json $HOME/.althea/config/genesis.json
 Change the `persistent_peers` field in ~/.althea/config/config.toml to contain the following:
 
 ```text
-persistent_peers = "C402D9EB656B66DC081DBF8A2EC098ECB691376D@chainripper-2.althea.net:23296"
+persistent_peers = "bc47f3e8f9134a812462e793d8767ef7334c0119@chainripper-2.althea.net:23296"
 ```
 
 ### Add your validator key
