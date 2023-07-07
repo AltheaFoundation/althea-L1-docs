@@ -11,7 +11,7 @@ Althea L1 testnet 4 has already launched, so this guide is for joining the alrea
 If you have a system architecture other than x86_64 Linux you will need to [grab the source code](https://github.com/althea-net/althea-l1) and build your own binary. But the vast majority of users should be able to download the release below.
 
 ```bash
-wget https://github.com/althea-net/althea-L1/releases/download/v0.5.4/althea-linux-amd64
+wget https://github.com/althea-net/althea-L1/releases/download/v0.5.5/althea-linux-amd64
 chmod +x althea-linux-amd64
 sudo mv althea-linux-amd64 /usr/sbin/althea
 ```
@@ -21,7 +21,7 @@ sudo mv althea-linux-amd64 /usr/sbin/althea
 The output of this command will generate priv_validator_key.json, which generates a different output each time it is ran even if the same input is provided. If you lose this file you will not be able to regenerate it and you will have to start a new validator. The default save location for this file will be ~/.althea/config/priv_validator_key.json
 
 ```bash
-althea init mymoniker --chain-id althea_417834-2
+althea init mymoniker --chain-id althea_417834-3
 ```
 
 ## Download the genesis file
@@ -40,7 +40,7 @@ cp testnet-4-genesis-collected.json $HOME/.althea/config/genesis.json
 Change the `persistent_peers` field in ~/.althea/config/config.toml to contain the following:
 
 ```text
-persistent_peers = "72a7e729fbb2be68a39d50d2f9de18079da175c4@chainripper-2.althea.net:23296"
+persistent_peers = "C402D9EB656B66DC081DBF8A2EC098ECB691376D@chainripper-2.althea.net:23296"
 ```
 
 ### Add your validator key
@@ -154,7 +154,7 @@ althea tx staking create-validator \
  --amount=975000000000000000000aalthea\
  --pubkey=$(althea tendermint show-validator) \
  --moniker="put your validator name here" \
- --chain-id=althea_417834-2 \
+ --chain-id=althea_417834-3 \
  --from=myvalidatorkeyname \
  --commission-rate="0.10" \
  --commission-max-rate="0.20" \

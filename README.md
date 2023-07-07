@@ -18,7 +18,7 @@ Public RPC is avaialble at `https://althea.zone`
 * Port 9090 GRPC
 * Port 1317 Legacy API
 
-chain id: althea_417834-2
+chain id: althea_417834-3
 evm chain id: 417834
 
 ## Status
