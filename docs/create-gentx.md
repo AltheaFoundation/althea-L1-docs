@@ -10,24 +10,27 @@ If you have a system architecture other than x86_64 Linux you will need to [grab
 wget https://github.com/althea-net/althea-L1/releases/download/v1.0.0-rc1/althea-linux-amd64
 chmod +x althea-linux-amd64
 sudo mv althea-linux-amd64 /usr/sbin/althea
+
+althea version --long | head
 ```
+version: v1.0.0-rc1
+commit: 92f53e521ec93807d75769bcef3d8ed2dd7a11c8
+
+## Init and download genesis Althea L1
+
+althea init <put your validator name here> --chain-id=althea_417834-4
+wget -O $HOME/.althea/config/genesis.json https://raw.githubusercontent.com/althea-net/althea-L1-docs/main/althea-l1-dress-rehersal-genesis.json
 
 ## Creating and submitting your GenTX
 
 ```bash
-althea tx staking create-validator \
- --amount=<your amount here, remember to subtract for the fee>aalthea\
- --pubkey=$(althea tendermint show-validator) \
- --moniker="put your validator name here" \
+althea gentx <myvalidatorkeyname> <your amount here, remember to subtract for the fee>aalthea\
+ --moniker=<put your validator name here> \
  --chain-id=althea_417834-4 \
- --from=myvalidatorkeyname \
  --commission-rate="0.10" \
  --commission-max-rate="0.20" \
  --commission-max-change-rate="0.01" \
- --gas=auto \
- --min-self-delegation="1" \
- --gas-adjustment=1.4
- --fees 20000000000000000aalthea
+ --min-self-delegation="1000000"
 ```
 
 ## Submitting your Gentx
