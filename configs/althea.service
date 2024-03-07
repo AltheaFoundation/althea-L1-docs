@@ -1,0 +1,16 @@
+[Unit]
+Description=Althea L1 Node
+Requires=network.target
+
+[Service]
+Type=simple
+TimeoutStartSec=10s
+Restart=always
+RestartSec=10
+ExecStart=/usr/sbin/althea start
+LimitNOFILE=500000
+LimitNPROC=500000
+Environment="HOME=/root"
+
+[Install]
+WantedBy=default.target

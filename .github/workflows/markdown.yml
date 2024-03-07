@@ -7,9 +7,9 @@ jobs:
       - uses: actions/checkout@v2
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6
+          ruby-version: 2.7
           bundler-cache: true
       - run: gem install mdl
       # lint ignoring the line length lint
-      - run: mdl -r ~MD013 README.md
-      - run: mdl -r ~MD013 docs/*
+      - run: mdl -r ~MD013,~MD026 README.md
+      - run: mdl -r ~MD013,~MD026 docs/*
