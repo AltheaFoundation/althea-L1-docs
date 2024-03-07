@@ -17,9 +17,10 @@ commit: 92f53e521ec93807d75769bcef3d8ed2dd7a11c8
 
 ## Init and download genesis Althea L1
 
+```
 althea init <put your validator name here> --chain-id=althea_417834-4
 wget -O $HOME/.althea/config/genesis.json https://raw.githubusercontent.com/althea-net/althea-L1-docs/main/althea-l1-dress-rehersal-genesis.json
-
+```
 ## Creating and submitting your GenTX
 
 ```bash
