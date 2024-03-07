@@ -1,0 +1,49 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "Chandra Station",
+          "identity": "",
+          "website": "",
+          "security_contact": "",
+          "details": ""
+        },
+        "commission": {
+          "rate": "0.100000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.010000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "althea10637femt0j6vz7xdxymjvgn68rp3hpk60swvdy",
+        "validator_address": "altheavaloper10637femt0j6vz7xdxymjvgn68rp3hpk6tsaznp",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "ohulc1ppEm7UADAaGLWQd1k6AWO58Xjg5y54A57YKmU="
+        },
+        "value": { "denom": "aalthea", "amount": "6881980000000000000000" }
+      }
+    ],
+    "memo": "e94b5b18fce39b081ea4e5656802703e6fbb2a81@192.168.0.69:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+          "key": "AzLmaENDaI3JEUxvkeQQL3IuVaGmsJUjeGyzFwCi/emu"
+        },
+        "mode_info": { "single": { "mode": "SIGN_MODE_DIRECT" } },
+        "sequence": "0"
+      }
+    ],
+    "fee": { "amount": [], "gas_limit": "200000", "payer": "", "granter": "" }
+  },
+  "signatures": [
+    "2PzZu2c+BVMDAeRUHtRkCXNScQpixt+2kR46HjBP0fJoDOOq4l4+/G0JxCCQq06Xx6eRYmC2FP1HupL45wS/HQA="
+  ]
+}
