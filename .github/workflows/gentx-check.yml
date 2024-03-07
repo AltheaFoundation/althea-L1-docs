@@ -21,3 +21,5 @@ jobs:
         run: althea validate-genesis
       - name: Collect Gentxs
         run: althea collect-gentxs
+      - name: Validate Genesis with signatures
+        run: althea validate-genesis
