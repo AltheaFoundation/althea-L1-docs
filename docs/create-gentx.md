@@ -14,7 +14,7 @@ sudo mv althea-linux-amd64 /usr/sbin/althea
 
 The git commit hash for this binary is `92f53e521ec93807d75769bcef3d8ed2dd7a11c8`
 
-The binary hash is 
+The binary hash is
 
 ```bash
 0799c1c305506d0e165cee096f06567823525078  althea-linux-amd64
