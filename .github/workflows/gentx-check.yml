@@ -15,8 +15,11 @@ jobs:
           cp ./althea-l1-dress-rehersal-genesis.json $HOME/.althea/config/genesis.json
           mkdir -p ./gentx
           mkdir -p ./gentxs
+          # allow this copy routine to fail if there are no files in one folder
+          set +e
           cp ./gentx/* $HOME/.althea/config/gentx/
           cp ./gentxs/* $HOME/.althea/config/gentx/
+          set -e
       - name: Validate Genesis
         run: althea validate-genesis
       - name: Collect Gentxs
