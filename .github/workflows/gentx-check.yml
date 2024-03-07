@@ -13,7 +13,7 @@ jobs:
           althea init test --chain-id althea_417834-4
           mkdir $HOME/.althea/config/gentx
           cp ./althea-l1-dress-rehersal-genesis.json $HOME/.althea/config/genesis.json
-          cp ./gentx/* $HOME/.althea/config/gentx/
+          cp .networks/althea-testnet-4/gentx/* $HOME/.althea/config/gentx/
       - name: Validate Genesis
         run: althea validate-genesis
       - name: Collect Gentxs
