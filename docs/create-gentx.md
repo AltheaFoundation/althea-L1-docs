@@ -31,7 +31,6 @@ althea gentx <myvalidatorkeyname> <your amount here, remember to subtract for th
  --commission-max-rate="0.20" \
  --commission-max-change-rate="0.01" \
  --min-self-delegation="1000000" \
- --gas=auto \
  --min-self-delegation="1" \
  --gas-adjustment=1.4
  --fees 20000000000000000aalthea
