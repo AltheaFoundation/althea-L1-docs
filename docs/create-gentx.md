@@ -13,7 +13,6 @@ sudo mv althea-linux-amd64 /usr/sbin/althea
 
 althea version --long | head
 ```
-version: v1.0.0-rc1
 commit: 92f53e521ec93807d75769bcef3d8ed2dd7a11c8
 
 ## Init and download genesis Althea L1
