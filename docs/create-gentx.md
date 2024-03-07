@@ -15,12 +15,10 @@ sudo mv althea-linux-amd64 /usr/sbin/althea
 ## Creating and submitting your GenTX
 
 ```bash
-althea tx staking create-validator \
- --amount=<your amount here, remember to subtract for the fee>aalthea\
- --pubkey=$(althea tendermint show-validator) \
+althea gentx myvalidatorkeyname  \
+ <your amount here, remember to subtract for the fee>aalthea\
  --moniker="put your validator name here" \
  --chain-id=althea_417834-4 \
- --from=myvalidatorkeyname \
  --commission-rate="0.10" \
  --commission-max-rate="0.20" \
  --commission-max-change-rate="0.01" \
