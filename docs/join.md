@@ -1,17 +1,17 @@
-# Joining Althea L1 Testnet 4
+# Joining Althea L1 Dress Rehersal Testnet
 
 ## Setting up your validator
 
 Please see the [validator system setup](validator-system-setup.md) for recommended machine specs
 
-Althea L1 testnet 4 has already launched, so this guide is for joining the already active testnet. The first setup is to setup the CLI
+Althea L1 mainnet dress rehersal testnet has already launched, so this guide is for joining the already active testnet. The first setup is to setup the CLI
 
 ## Download Althea L1
 
 If you have a system architecture other than x86_64 Linux you will need to [grab the source code](https://github.com/althea-net/althea-l1) and build your own binary. But the vast majority of users should be able to download the release below.
 
 ```bash
-wget https://github.com/althea-net/althea-L1/releases/download/v0.5.5/althea-linux-amd64
+wget https://github.com/althea-net/althea-L1/releases/download/v1.0.0-rc1/althea-linux-amd64
 chmod +x althea-linux-amd64
 sudo mv althea-linux-amd64 /usr/sbin/althea
 ```
@@ -21,7 +21,7 @@ sudo mv althea-linux-amd64 /usr/sbin/althea
 The output of this command will generate priv_validator_key.json, which generates a different output each time it is ran even if the same input is provided. If you lose this file you will not be able to regenerate it and you will have to start a new validator. The default save location for this file will be ~/.althea/config/priv_validator_key.json
 
 ```bash
-althea init mymoniker --chain-id althea_417834-3
+althea init mymoniker --chain-id althea_417834-4
 ```
 
 ## Download the genesis file
@@ -30,8 +30,8 @@ The genesis file represents the current state of the blockchain and allows your 
 with the rest.
 
 ```bash
-wget https://raw.githubusercontent.com/althea-net/althea-L1-docs/main/testnet-4-genesis-collected.json
-cp testnet-4-genesis-collected.json $HOME/.althea/config/genesis.json
+wget https://raw.githubusercontent.com/althea-net/althea-L1-docs/main/althea-l1-dress-rehersal-genesis-collected.json
+cp althea-l1-dress-rehersal-genesis.json-collected.json $HOME/.althea/config/genesis.json
 
 ```
 
@@ -151,10 +151,10 @@ post your althea1 validator address and recieve tokens to start your validator.
 ```bash
 
 althea tx staking create-validator \
- --amount=975000000000000000000aalthea\
+ --amount=<your amount here, remember to subtract for the fee>aalthea\
  --pubkey=$(althea tendermint show-validator) \
  --moniker="put your validator name here" \
- --chain-id=althea_417834-3 \
+ --chain-id=althea_417834-4 \
  --from=myvalidatorkeyname \
  --commission-rate="0.10" \
  --commission-max-rate="0.20" \
@@ -162,6 +162,7 @@ althea tx staking create-validator \
  --gas=auto \
  --min-self-delegation="1" \
  --gas-adjustment=1.4
+ --fees 20000000000000000aalthea
 
 
 ```
