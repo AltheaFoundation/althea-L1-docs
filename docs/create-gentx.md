@@ -12,6 +12,21 @@ chmod +x althea-linux-amd64
 sudo mv althea-linux-amd64 /usr/sbin/althea
 ```
 
+The git commit hash for this binary is `92f53e521ec93807d75769bcef3d8ed2dd7a11c8`
+
+The binary hash is 
+
+```bash
+0799c1c305506d0e165cee096f06567823525078  althea-linux-amd64
+```
+
+## Init your environment and copy in the genesis
+
+```bash
+althea init myvalidatorname --chain-id=althea_417834-4
+wget https://raw.githubusercontent.com/althea-net/althea-L1-docs/main/althea-l1-dress-rehersal-genesis.json -O ~/.althea/config/genesis.json
+```
+
 ## Creating and submitting your GenTX
 
 ```bash
