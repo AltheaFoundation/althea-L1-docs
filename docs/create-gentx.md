@@ -1,6 +1,6 @@
 # Submitting a GenTX for Mainnet Dress rehersal
 
-Welcome! This will be the final testnet before launch of Althea-L1. This is a dress rehersal meaning while the chain id isn't final *the addresses, keys, and balances are* obviously mistakes will be corrected since that's the point of a testnet. But you should secure your keys just like you would on mainnet.
+Welcome! This will be the final testnet before launch of Althea-L1. This is a dress rehearsal, meaning while the chain id isn't final _the addresses, keys, and balances are_. Obviously mistakes will be corrected since that's the point of a testnet. **You should secure your keys just like you would on mainnet**.
 
 ## Download Althea L1
 
@@ -15,12 +15,12 @@ sudo mv althea-linux-amd64 /usr/sbin/althea
 ## Creating and submitting your GenTX
 
 ```bash
-althea tx staking create-validator \
+althea gentx \
  --amount=<your amount here, remember to subtract for the fee>aalthea\
  --pubkey=$(althea tendermint show-validator) \
- --moniker="put your validator name here" \
+ --moniker="<validator_name>" \
  --chain-id=althea_417834-4 \
- --from=myvalidatorkeyname \
+ --from=<key_name> \
  --commission-rate="0.10" \
  --commission-max-rate="0.20" \
  --commission-max-change-rate="0.01" \
