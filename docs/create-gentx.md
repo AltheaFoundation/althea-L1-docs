@@ -28,7 +28,7 @@ althea gentx myvalidatorkeyname  \
 
 ## Submitting your Gentx
 
-Grab your gentx from `~/.althea/config/gentx/<filename>.json` and submit it as a Github pull request to this repo, specifically in the `gentx` folder. You should be able to do this entierly from the Github UI by clicking [this link](https://github.com/althea-net/althea-L1-docs/tree/main/gentxs) then clicking 'add file' -> 'upload files' and selecting your gentx file.
+Grab your gentx from `~/.althea/config/gentx/<filename>.json` and submit it as a Github pull request to this repo, specifically in the `gentx` folder. You should be able to do this entierly from the Github UI by clicking [this link](https://github.com/althea-net/althea-L1-docs/tree/main/gentx) then clicking 'add file' -> 'upload files' and selecting your gentx file.
 
 Once your pull request is opened it will be merged if the tests pass. The tests ensure the gentx signature is valid so that the chain can execute your gentx on startup.
 
