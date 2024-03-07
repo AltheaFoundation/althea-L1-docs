@@ -1,0 +1,66 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "Nodes.Guru",
+          "identity": "28B672FCE6BBD562",
+          "website": "https://nodes.guru",
+          "security_contact": "security@nodes.guru",
+          "details": "Guru of non-custodial staking. Professional node running, low fees, best uptime and 24/7 customer support."
+        },
+        "commission": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.100000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "althea194zksk4m6d3pmmu9kyq24yr99qzw7cne35fe5e",
+        "validator_address": "altheavaloper194zksk4m6d3pmmu9kyq24yr99qzw7cne456h2u",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "0BnMKI21FTNm0xCo21QuxUzwmtI3jlF1UlUkGiJKNdc="
+        },
+        "value": {
+          "denom": "aalthea",
+          "amount": "6980000000000000000000"
+        }
+      }
+    ],
+    "memo": "e335ff884071427535c69c8c223e544e3bc11160@162.19.97.197:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+          "key": "Aq7EknYFauYu0P9n2jD0Q3+RhJKEiinXjhqx04XPW78Q"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [
+        {
+          "denom": "aalthea",
+          "amount": "60000000000000000"
+        }
+      ],
+      "gas_limit": "600000",
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": [
+    "99T5qa5v2Mh3PRM241KAFlRmmyA+MaZcWRjFOLxBmftd/g5I12t+8oomn6vsSvZskolvqTmqi5SMFIq+k1hq6QA="
+  ]
+}
