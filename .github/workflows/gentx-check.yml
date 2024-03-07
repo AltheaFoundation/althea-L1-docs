@@ -7,14 +7,22 @@ jobs:
       - uses: actions/checkout@v2
       - name: Setup
         run: |
-          wget https://github.com/althea-net/althea-L1/releases/download/v1.0.0-rc1/althea-linux-amd64
+          wget https://github.com/althea-net/althea-L1/releases/download/v1.0.0-rc2/althea-linux-amd64
           chmod +x althea-linux-amd64
           sudo mv althea-linux-amd64 /bin/althea
           althea init test --chain-id althea_417834-4
           mkdir $HOME/.althea/config/gentx
           cp ./althea-l1-dress-rehersal-genesis.json $HOME/.althea/config/genesis.json
+          mkdir -p ./gentx
+          mkdir -p ./gentxs
+          # allow this copy routine to fail if there are no files in one folder
+          set +e
           cp ./gentx/* $HOME/.althea/config/gentx/
+          cp ./gentxs/* $HOME/.althea/config/gentx/
+          set -e
       - name: Validate Genesis
         run: althea validate-genesis
       - name: Collect Gentxs
         run: althea collect-gentxs
+      - name: Validate Genesis with signatures
+        run: althea validate-genesis
