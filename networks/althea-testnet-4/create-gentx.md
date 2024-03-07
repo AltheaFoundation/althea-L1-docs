@@ -39,19 +39,14 @@ echo $result
 Create your gentx with the following command, be sure to replace the `--amount` flag with the result from the previous command.
 
 ```bash
-althea gentx \
- --amount=<the amount from the command>aalthea\
- --pubkey=$(althea tendermint show-validator) \
- --moniker="<validator_name>" \
- --chain-id=althea_417834-4 \
- --from=<key_name> \
- --commission-rate="0.10" \
- --commission-max-rate="0.20" \
- --commission-max-change-rate="0.01" \
- --gas=auto \
- --min-self-delegation="1" \
- --gas-adjustment=1.4
- --fees 20000000000000000aalthea
+althea gentx <key_name> <amount>aalthea  \
+--moniker="moniler" \
+--chain-id=althea_417834-4 \
+--commission-rate="0.10" \
+--commission-max-rate="0.20" \
+--commission-max-change-rate="0.01" \
+--min-self-delegation="1" \
+--pubkey=$(althea tendermint show-validator)
 ```
 
 ## Submitting your Gentx
