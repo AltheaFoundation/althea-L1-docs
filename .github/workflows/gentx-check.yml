@@ -12,11 +12,12 @@ jobs:
           sudo mv althea-linux-amd64 /bin/althea
           althea init test --chain-id althea_258432-1
           mkdir $HOME/.althea/config/gentx
-          cp ./althea-l1-dress-rehersal-genesis.json $HOME/.althea/config/genesis.json
+          cp ./althea-l1-mainnet-genesis.json $HOME/.althea/config/genesis.json
           mkdir -p ./gentx
           mkdir -p ./gentxs
           # allow this copy routine to fail if there are no files in one folder
           set +e
+          rm ./gentx/placeholder
           cp ./gentx/* $HOME/.althea/config/gentx/
           cp ./gentxs/* $HOME/.althea/config/gentx/
           set -e
