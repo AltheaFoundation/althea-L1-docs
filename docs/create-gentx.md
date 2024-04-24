@@ -51,4 +51,4 @@ Once your pull request is opened it will be merged if the tests pass. The tests 
 
 ## Launch!
 
-Launch is set for 11am PST Thursday April 23, see you there!
+Launch is set for 11am PST Thursday April 25, see you there!
