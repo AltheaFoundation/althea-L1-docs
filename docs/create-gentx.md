@@ -4,22 +4,20 @@ Welcome! This will be the launch of Althea-L1.
 
 ## Download Althea L1
 
-THIS BINARY IS NOT THE FINAL LAUNCH BINARY. But you can use it to create a gentx. You will have to return to this document to upgrade before chain launch.
-
 If you have a system architecture other than x86_64 Linux you will need to [grab the source code](https://github.com/althea-net/althea-l1) and build your own binary. But the vast majority of users should be able to download the release below.
 
 ```bash
-wget https://github.com/althea-net/althea-L1/releases/download/v1.2.0/althea-linux-amd64
+wget https://github.com/althea-net/althea-L1/releases/download/v1.3.0/althea-linux-amd64
 chmod +x althea-linux-amd64
 sudo mv althea-linux-amd64 /usr/sbin/althea
 ```
 
-The git commit hash for this binary is `2c0ab30a45097f7ffd10b719cec3bea8d376d828`
+The git commit hash for this binary is `9be5fb46c1dc4c20757883ff061d64c859c81854`
 
 The binary hash is
 
 ```bash
-c6c5149134601151bf22efcf0503ef7a7e316a98  althea-linux-amd64
+45e592fe59eeedc2605ec74178968682d465ed2c  althea-linux-amd64
 ```
 
 ## Init your environment and copy in the genesis
