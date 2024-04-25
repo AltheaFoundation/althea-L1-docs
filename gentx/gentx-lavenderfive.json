@@ -49,13 +49,18 @@
       }
     ],
     "fee": {
-      "amount": [],
+      "amount": [
+        {
+          "denom": "aalthea",
+          "amount": "20000000000000000"
+        }
+      ],
       "gas_limit": "200000",
       "payer": "",
       "granter": ""
     }
   },
   "signatures": [
-    "PssbXQHH6FPGbdzQ8ycC/7D2XBrDf/vVzDSLUvG8q70HSCjncMteAzHOTNKWFcrhEK4KmJd0CuuqhCHoy9MKzAE="
+    "gZMqz+4KQa4nCJgaHXqDjW5KlDSghckRDTWQZIIMkTYt9gBEz1/2vIlhqhB7Knw/Uqhal196UI5BZfVdk4KbWQA="
   ]
 }
