@@ -10,7 +10,7 @@
 
 ## RPC
 
-Public RPC is avaialble at `https://althea.zone`
+Public RPC is avaialble at `https://rpc.althea.zone`
 
 * Port 443 / 8545 EVM RPC
 * Port 8546 EVM Websockets
