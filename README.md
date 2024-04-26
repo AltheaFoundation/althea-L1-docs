@@ -10,7 +10,7 @@
 
 ## RPC
 
-Public RPC is avaialble at `https://althea.zone`
+Public RPC is avaialble at `https://rpc.althea.zone`
 
 * Port 443 / 8545 EVM RPC
 * Port 8546 EVM Websockets
@@ -18,8 +18,8 @@ Public RPC is avaialble at `https://althea.zone`
 * Port 9090 GRPC
 * Port 1317 Legacy API
 
-chain id: althea_417834-4
-evm chain id: 417834
+chain id: althea_258432-1
+evm chain id: 258432
 
 ## Status
 
@@ -35,6 +35,7 @@ The community is preparing for immenent launch with a mainnet dress rehersal sta
 
 ### Cosmos SDK
 
+* [Cosmosstation](https://www.mintscan.io/althea)
 * [Nodes.Guru](https://althea.explorers.guru/)
 * [STAVR](https://explorer.stavr.tech/althea-testnetl1)
 * [Hexnodes](https://explorer.hexnodes.co/ALTHEA-TESTNET/staking/altheavaloper19fcaymvtttl265lner4sz8na70venkfgxkq3hl)
