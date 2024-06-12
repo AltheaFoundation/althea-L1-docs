@@ -4,6 +4,7 @@
 
 1. [Joining](/docs/join.md)
 1. [Building on Althea L1](/docs/development/index.md)
+1. [Testnet resources](/docs/testnet.md)
 1. [Hackathon project index](https://dorahacks.io/hackathon/145)
 1. [Source code](https://github.com/althea-net/althea-l1)
 1. [Community Discord](https://discord.gg/hHx7HxcycF)
