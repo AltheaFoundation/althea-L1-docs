@@ -11,7 +11,7 @@ Althea L1 mainnet dress rehersal testnet has already launched, so this guide is 
 If you have a system architecture other than x86_64 Linux you will need to [grab the source code](https://github.com/althea-net/althea-l1) and build your own binary. But the vast majority of users should be able to download the release below.
 
 ```bash
-wget https://github.com/althea-net/althea-L1/releases/download/v1.0.0-rc1/althea-linux-amd64
+wget https://github.com/AltheaFoundation/althea-L1/releases/download/v1.4.0/althea-linux-amd64
 chmod +x althea-linux-amd64
 sudo mv althea-linux-amd64 /usr/sbin/althea
 ```
