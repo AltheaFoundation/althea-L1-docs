@@ -30,7 +30,7 @@ The genesis file represents the current state of the blockchain and allows your 
 with the rest.
 
 ```bash
-wget https://raw.githubusercontent.com/althea-net/althea-L1-docs/main/althea-l1-dress-rehersal-genesis-collected.json
+wget https://raw.githubusercontent.com/AltheaFoundation/althea-L1-docs/refs/heads/main/althea-l1-mainnet-genesis.json
 cp althea-l1-dress-rehersal-genesis.json-collected.json $HOME/.althea/config/genesis.json
 
 ```
