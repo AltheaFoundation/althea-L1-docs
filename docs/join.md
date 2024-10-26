@@ -31,7 +31,7 @@ with the rest.
 
 ```bash
 wget https://raw.githubusercontent.com/AltheaFoundation/althea-L1-docs/refs/heads/main/althea-l1-mainnet-genesis.json
-cp althea-l1-dress-rehersal-genesis.json-collected.json $HOME/.althea/config/genesis.json
+cp althea-l1-mainnet-genesis.json $HOME/.althea/config/genesis.json
 
 ```
 
