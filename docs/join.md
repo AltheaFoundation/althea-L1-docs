@@ -10,8 +10,10 @@ Althea L1 mainnet dress rehersal testnet has already launched, so this guide is 
 
 If you have a system architecture other than x86_64 Linux you will need to [grab the source code](https://github.com/althea-net/althea-l1) and build your own binary. But the vast majority of users should be able to download the release below.
 
+**_NOTE:_**  `v1.4.0` does not sync past block 271, so use v1.3.0 if starting from genesis with a new validator.
+
 ```bash
-wget https://github.com/AltheaFoundation/althea-L1/releases/download/v1.4.0/althea-linux-amd64
+wget https://github.com/AltheaFoundation/althea-L1/releases/download/v1.3.0/althea-linux-amd64
 chmod +x althea-linux-amd64
 sudo mv althea-linux-amd64 /usr/sbin/althea
 ```
@@ -21,7 +23,7 @@ sudo mv althea-linux-amd64 /usr/sbin/althea
 The output of this command will generate priv_validator_key.json, which generates a different output each time it is ran even if the same input is provided. If you lose this file you will not be able to regenerate it and you will have to start a new validator. The default save location for this file will be ~/.althea/config/priv_validator_key.json
 
 ```bash
-althea init mymoniker --chain-id althea_417834-4
+althea init mymoniker --chain-id althea_258432-1
 ```
 
 ## Download the genesis file
@@ -154,7 +156,7 @@ althea tx staking create-validator \
  --amount=<your amount here, remember to subtract for the fee>aalthea\
  --pubkey=$(althea tendermint show-validator) \
  --moniker="put your validator name here" \
- --chain-id=althea_417834-4 \
+ --chain-id=althea_258432-1 \
  --from=myvalidatorkeyname \
  --commission-rate="0.10" \
  --commission-max-rate="0.20" \
