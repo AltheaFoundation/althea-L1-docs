@@ -1,4 +1,4 @@
-# Joining Althea L1 Dress Rehersal Testnet
+# Joining Althea L1 Mainnet
 
 ## Setting up your validator
 
@@ -10,7 +10,7 @@ Althea L1 mainnet dress rehersal testnet has already launched, so this guide is 
 
 If you have a system architecture other than x86_64 Linux you will need to [grab the source code](https://github.com/althea-net/althea-l1) and build your own binary. But the vast majority of users should be able to download the release below.
 
-**_NOTE:_**  `v1.4.0` does not sync past block 271, so use `v1.3.0` if starting from genesis with a new validator.
+**_NOTE:_**  `v1.4.0` does not sync past block 271, so use `v1.3.0` if starting from genesis with a new validator until
 
 ```bash
 wget https://github.com/AltheaFoundation/althea-L1/releases/download/v1.3.0/althea-linux-amd64
