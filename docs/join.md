@@ -153,19 +153,17 @@ post your althea1 validator address and recieve tokens to start your validator.
 ```bash
 
 althea tx staking create-validator \
- --amount=<your amount here, remember to subtract for the fee>aalthea\
- --pubkey=$(althea tendermint show-validator) \
- --moniker="put your validator name here" \
- --chain-id=althea_258432-1 \
- --from=myvalidatorkeyname \
- --commission-rate="0.10" \
- --commission-max-rate="0.20" \
- --commission-max-change-rate="0.01" \
- --gas=auto \
- --min-self-delegation="1" \
- --gas-adjustment=1.4
- --fees 20000000000000000aalthea
-
+--commission-rate 0.1 \
+--commission-max-rate 0.2 \
+--commission-max-change-rate 0.01 \
+--min-self-delegation "1" \
+--amount 1000000000000000000aalthea \
+--pubkey $(althea tendermint show-validator) \
+--from myvalidatorkeyname \
+--moniker="put your validator name here" \
+--chain-id althea_258432-1 \
+--gas 300000 \
+--fees 30000000000000000aalthea
 
 ```
 
